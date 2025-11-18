@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rap Lyric Generator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="uiPanel">
+      <h2>Rap Lyric Generator</h2>
+      <textarea id="prompt" placeholder="Enter your rap prompt/theme..."></textarea>
+      <select id="style">
+        <option value="normal">Normal</option>
+        <option value="aggressive">Aggressive</option>
+        <option value="humorous">Humorous</option>
+      </select>
+      <button id="generateBtn">Generate Lyrics</button>
+      <div id="lyricsOutput"></div>
+
+      <h3>Provide Feedback for Improvements:</h3>
+      <textarea id="feedback" placeholder="Enter your feedback here..."></textarea>
+      <button id="feedbackBtn">Submit Feedback</button>
+      <div id="improvedOutput"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
