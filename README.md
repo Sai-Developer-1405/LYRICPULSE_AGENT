@@ -1,3 +1,25 @@
+# RhymeCraft AI - Rap Lyric Generator Agent
+
+## Project Overview
+RhymeCraft AI is an AI-powered rap lyric generator that creates original, styled rap verses using a multi-agent AI architecture. It combines a Flask backend powered by a large language model (LLM), custom rhyme checking, style modulation, and user-feedback loops, paired with an engaging and customizable frontend UI.
+
+## Features
+- Multi-agent system integrating LLM, rhyme checker, style modifier, and feedback agents
+- Custom and built-in AI tools using OpenAI GPT API
+- Session and state management with in-memory sessions
+- Iterative lyric improvements through user feedback
+- Observability with logging and tracing
+- Deployable REST API backend and versatile frontends (Vanilla JS and React)
+- Optional 3D animated and aesthetic UI (can be extended)
+
+## File Structure
+
+## Getting Started
+
+### Backend
+1. Install required packages:
+2. Replace `YOUR_OPENAI_API_KEY` in `app.py` with your OpenAI API key.
+3. Run the backend server:
 4. Server runs at `http://localhost:5000/`.
 
 ### Frontend (Vanilla)
@@ -23,11 +45,10 @@
 - Expand 3D visualizations or audio-reactive UI.
 
 ## License
-[Specify your license]
+MIT License
 
 ## Contact
-For inquiries or contributions, reach out at [your email or GitHub].
-
+For inquiries or contributions, reach out at ping2saas145@gmail.com.
 ---
 
 **RhymeCraft AI** blends creativity and AI for dynamic, personalized rap lyric generation.
